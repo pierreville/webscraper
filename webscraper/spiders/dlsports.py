@@ -1,6 +1,6 @@
 import scrapy
 
-class HolabirdSpider(scrapy.Spider):
+class DLSportsSpider(scrapy.Spider):
     name = "dlsports"
     start_urls = [
         'https://dlsports.eu/collections/squashschlager',

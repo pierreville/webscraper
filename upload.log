@@ -1,0 +1,1003 @@
+. 2020-07-15 15:54:35.458 --------------------------------------------------------------------------
+. 2020-07-15 15:54:35.459 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-15 15:54:35.459 Configuration: nul
+. 2020-07-15 15:54:35.459 Log level: Normal
+. 2020-07-15 15:54:35.459 Local account: CFGLOBAL\pbastien
+. 2020-07-15 15:54:35.459 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-15 15:54:35.459 Process ID: 27260
+. 2020-07-15 15:54:35.460 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_8632_245 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put squashgear.csv" "exit"
+. 2020-07-15 15:54:35.460 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-15 15:54:35.460 Login time: Wednesday, July 15, 2020 3:54:35 PM
+. 2020-07-15 15:54:35.460 --------------------------------------------------------------------------
+. 2020-07-15 15:54:35.460 Script: Retrospectively logging previous script records:
+> 2020-07-15 15:54:35.460 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-15 15:54:35.460 --------------------------------------------------------------------------
+. 2020-07-15 15:54:35.460 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-15 15:54:35.460 Host name: squashsource.com (Port: 2222)
+. 2020-07-15 15:54:35.460 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-15 15:54:35.460 Tunnel: No
+. 2020-07-15 15:54:35.460 Transfer Protocol: SFTP
+. 2020-07-15 15:54:35.460 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-15 15:54:35.460 Disable Nagle: No
+. 2020-07-15 15:54:35.460 Proxy: None
+. 2020-07-15 15:54:35.460 Send buffer: 262144
+. 2020-07-15 15:54:35.461 SSH protocol version: 2; Compression: No
+. 2020-07-15 15:54:35.461 Bypass authentication: No
+. 2020-07-15 15:54:35.461 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-15 15:54:35.461 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-15 15:54:35.461 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-15 15:54:35.461 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-15 15:54:35.461 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-15 15:54:35.461 Simple channel: Yes
+. 2020-07-15 15:54:35.461 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-15 15:54:35.461 Shell: default
+. 2020-07-15 15:54:35.461 EOL: LF, UTF: Auto
+. 2020-07-15 15:54:35.461 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-15 15:54:35.461 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-15 15:54:35.461 SFTP Bugs: Auto,Auto
+. 2020-07-15 15:54:35.461 SFTP Server: default
+. 2020-07-15 15:54:35.461 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-15 15:54:35.461 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-15 15:54:35.461 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-15 15:54:35.461 DST mode: Unix
+. 2020-07-15 15:54:35.461 --------------------------------------------------------------------------
+. 2020-07-15 15:54:35.462 Looking up host "squashsource.com" for SSH connection
+. 2020-07-15 15:54:35.470 Connecting to 199.250.194.144 port 2222
+. 2020-07-15 15:54:35.479 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-15 15:54:35.500 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-15 15:54:35.500 Using SSH protocol version 2
+. 2020-07-15 15:54:50.492 No GSSAPI security context available
+. 2020-07-15 15:54:50.492 Have a known host key of type ssh-ed25519
+. 2020-07-15 15:54:50.493 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-15 15:54:50.608 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-15 15:54:50.608 Host key fingerprint is:
+. 2020-07-15 15:54:50.609 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-15 15:54:50.609 Host key matches configured key fingerprint
+. 2020-07-15 15:54:50.609 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-15 15:54:50.610 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-15 15:54:50.610 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-15 15:54:50.610 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-15 15:54:50.618 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+. 2020-07-15 15:54:50.618 Pageant is running. Requesting keys.
+. 2020-07-15 15:54:50.620 Pageant has 1 SSH-2 keys
+. 2020-07-15 15:54:50.620 Pageant key #0 matches configured key file
+! 2020-07-15 15:54:50.620 Using username "squash9".
+. 2020-07-15 15:54:50.649 Server offered these authentication methods: publickey
+. 2020-07-15 15:54:50.649 Trying Pageant key #0
+! 2020-07-15 15:54:50.657 Authenticating with public key "imported-openssh-key" from agent
+. 2020-07-15 15:54:50.688 Sending Pageant's response
+. 2020-07-15 15:54:50.701 Access granted
+. 2020-07-15 15:54:50.702 Opening main session channel
+. 2020-07-15 15:54:50.827 Opened main channel
+. 2020-07-15 15:54:50.844 Started a shell/command
+. 2020-07-15 15:54:50.846 --------------------------------------------------------------------------
+. 2020-07-15 15:54:50.846 Using SFTP protocol.
+. 2020-07-15 15:54:50.846 Doing startup conversation with host.
+> 2020-07-15 15:54:50.847 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2020-07-15 15:54:51.209 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2020-07-15 15:54:51.209 SFTP version 3 negotiated.
+. 2020-07-15 15:54:51.209 Unknown server extension posix-rename@openssh.com="1"
+. 2020-07-15 15:54:51.209 Supports statvfs@openssh.com extension version "2"
+. 2020-07-15 15:54:51.209 Unknown server extension fstatvfs@openssh.com="2"
+. 2020-07-15 15:54:51.209 Supports hardlink@openssh.com extension version "1"
+. 2020-07-15 15:54:51.209 Unknown server extension fsync@openssh.com="1"
+. 2020-07-15 15:54:51.209 We believe the server has signed timestamps bug
+. 2020-07-15 15:54:51.209 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2020-07-15 15:54:51.209 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2020-07-15 15:54:51.209 Getting current directory name.
+. 2020-07-15 15:54:51.209 Getting real path for '.'
+> 2020-07-15 15:54:51.209 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2020-07-15 15:54:51.218 Type: SSH_FXP_NAME, Size: 47, Number: 16
+. 2020-07-15 15:54:51.219 Real path is '/home/squash9'
+. 2020-07-15 15:54:51.219 Startup conversation with host finished.
+< 2020-07-15 15:54:51.219 Script: Active session: [1] squash9@squashsource.com
+> 2020-07-15 15:54:51.220 Script: lcd "C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper"
+< 2020-07-15 15:54:51.220 Script: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+> 2020-07-15 15:54:51.221 Script: cd /home/squash9/public_html/wp-content/uploads/wpallimport/files
+. 2020-07-15 15:54:51.221 Changing directory to "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+. 2020-07-15 15:54:51.221 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-15 15:54:51.221 Type: SSH_FXP_REALPATH, Size: 71, Number: 272
+< 2020-07-15 15:54:51.229 Type: SSH_FXP_NAME, Size: 145, Number: 272
+. 2020-07-15 15:54:51.230 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-15 15:54:51.230 Trying to open directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+> 2020-07-15 15:54:51.231 Type: SSH_FXP_LSTAT, Size: 71, Number: 519
+< 2020-07-15 15:54:51.242 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2020-07-15 15:54:51.242 Getting current directory name.
+< 2020-07-15 15:54:51.242 Script: /home/squash9/public_html/wp-content/uploads/wpallimport/files
+> 2020-07-15 15:54:51.243 Script: put squashgear.csv
+. 2020-07-15 15:54:51.244 Copying 1 files/directories to remote directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files" - total size: 84,662
+. 2020-07-15 15:54:51.244   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2020-07-15 15:54:51.244   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2020-07-15 15:54:51.244   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2020-07-15 15:54:51.244 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-15 15:54:51.244 Type: SSH_FXP_REALPATH, Size: 71, Number: 784
+< 2020-07-15 15:54:51.253 Type: SSH_FXP_NAME, Size: 145, Number: 784
+. 2020-07-15 15:54:51.253 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-15 15:54:51.253 File: 'squashgear.csv' [2020-07-15T19:49:44.029Z] [84662]
+. 2020-07-15 15:54:51.255 Copying "squashgear.csv" to remote directory started.
+. 2020-07-15 15:54:51.255 Binary transfer mode selected.
+. 2020-07-15 15:54:51.255 Opening remote file.
+> 2020-07-15 15:54:51.255 Type: SSH_FXP_OPEN, Size: 102, Number: 1027
+< 2020-07-15 15:54:51.264 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2020-07-15 15:54:51.264 Type: SSH_FXP_WRITE, Size: 32761, Number: 1542
+. 2020-07-15 15:54:51.267 2 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2020-07-15 15:54:51.267 Type: SSH_FXP_CLOSE, Size: 13, Number: 2308
+> 2020-07-15 15:54:51.267 Type: SSH_FXP_SETSTAT, Size: 98, Number: 1289
+< 2020-07-15 15:54:51.320 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2020-07-15 15:54:51.320 Status code: 0
+< 2020-07-15 15:54:51.321 Type: SSH_FXP_STATUS, Size: 24, Number: 1798
+< 2020-07-15 15:54:51.321 Status code: 0
+< 2020-07-15 15:54:51.351 Type: SSH_FXP_STATUS, Size: 24, Number: 2054
+< 2020-07-15 15:54:51.351 Status code: 0
+< 2020-07-15 15:54:51.351 Type: SSH_FXP_STATUS, Size: 24, Number: 2308
+< 2020-07-15 15:54:51.351 Status code: 0
+. 2020-07-15 15:54:51.351 Preserving timestamp [2020-07-15T19:49:44.000Z]
+< 2020-07-15 15:54:51.351 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2020-07-15 15:54:51.351 Status code: 0
+. 2020-07-15 15:54:51.351 Transfer done: 'squashgear.csv' => '/home/squash9/public_html/wp-content/uploads/wpallimport/files/squashgear.csv' [84662]
+. 2020-07-15 15:54:51.351 Copying finished: Transferred: 84,662, Elapsed: 0:00:00, CPS: 552,404/s
+> 2020-07-15 15:54:51.352 Script: exit
+. 2020-07-15 15:54:51.352 Script: Exit code: 0
+. 2020-07-15 15:54:51.352 Closing connection.
+. 2020-07-15 15:54:51.352 Sending special code: 1
+. 2020-07-15 15:54:51.362 Session sent command exit status 0
+. 2020-07-15 15:54:51.362 Main session channel closed
+. 2020-07-15 15:54:51.363 All channels closed
+. 2020-07-16 10:51:27.120 --------------------------------------------------------------------------
+. 2020-07-16 10:51:27.120 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-16 10:51:27.120 Configuration: nul
+. 2020-07-16 10:51:27.120 Log level: Normal
+. 2020-07-16 10:51:27.120 Local account: CFGLOBAL\pbastien
+. 2020-07-16 10:51:27.120 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-16 10:51:27.120 Process ID: 7532
+. 2020-07-16 10:51:27.121 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_27580_527 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put controlthet.csv" "exit"
+. 2020-07-16 10:51:27.121 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-16 10:51:27.121 Login time: Thursday, July 16, 2020 10:51:27 AM
+. 2020-07-16 10:51:27.121 --------------------------------------------------------------------------
+. 2020-07-16 10:51:27.121 Script: Retrospectively logging previous script records:
+> 2020-07-16 10:51:27.121 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-16 10:51:27.121 --------------------------------------------------------------------------
+. 2020-07-16 10:51:27.121 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-16 10:51:27.121 Host name: squashsource.com (Port: 2222)
+. 2020-07-16 10:51:27.121 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-16 10:51:27.121 Tunnel: No
+. 2020-07-16 10:51:27.121 Transfer Protocol: SFTP
+. 2020-07-16 10:51:27.121 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-16 10:51:27.121 Disable Nagle: No
+. 2020-07-16 10:51:27.121 Proxy: None
+. 2020-07-16 10:51:27.121 Send buffer: 262144
+. 2020-07-16 10:51:27.121 SSH protocol version: 2; Compression: No
+. 2020-07-16 10:51:27.121 Bypass authentication: No
+. 2020-07-16 10:51:27.121 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-16 10:51:27.121 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-16 10:51:27.121 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-16 10:51:27.121 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-16 10:51:27.121 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-16 10:51:27.121 Simple channel: Yes
+. 2020-07-16 10:51:27.121 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-16 10:51:27.121 Shell: default
+. 2020-07-16 10:51:27.121 EOL: LF, UTF: Auto
+. 2020-07-16 10:51:27.121 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-16 10:51:27.121 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-16 10:51:27.121 SFTP Bugs: Auto,Auto
+. 2020-07-16 10:51:27.121 SFTP Server: default
+. 2020-07-16 10:51:27.122 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-16 10:51:27.122 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-16 10:51:27.122 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-16 10:51:27.122 DST mode: Unix
+. 2020-07-16 10:51:27.122 --------------------------------------------------------------------------
+. 2020-07-16 10:51:27.122 Looking up host "squashsource.com" for SSH connection
+. 2020-07-16 10:51:27.200 Connecting to 199.250.194.144 port 2222
+. 2020-07-16 10:51:27.211 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-16 10:51:27.244 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-16 10:51:27.244 Using SSH protocol version 2
+. 2020-07-16 10:51:42.253 No GSSAPI security context available
+. 2020-07-16 10:51:42.254 Have a known host key of type ssh-ed25519
+. 2020-07-16 10:51:42.257 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-16 10:51:42.373 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-16 10:51:42.374 Host key fingerprint is:
+. 2020-07-16 10:51:42.374 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-16 10:51:42.375 Host key matches configured key fingerprint
+. 2020-07-16 10:51:42.375 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-16 10:51:42.375 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-16 10:51:42.375 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-16 10:51:42.375 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-16 10:51:42.383 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+. 2020-07-16 10:51:42.388 Pageant is running. Requesting keys.
+. 2020-07-16 10:51:42.392 Pageant has 1 SSH-2 keys
+. 2020-07-16 10:51:42.392 Pageant key #0 matches configured key file
+! 2020-07-16 10:51:42.392 Using username "squash9".
+. 2020-07-16 10:51:42.406 Server offered these authentication methods: publickey
+. 2020-07-16 10:51:42.406 Trying Pageant key #0
+! 2020-07-16 10:51:42.438 Authenticating with public key "imported-openssh-key" from agent
+. 2020-07-16 10:51:42.473 Sending Pageant's response
+. 2020-07-16 10:51:42.485 Access granted
+. 2020-07-16 10:51:42.485 Opening main session channel
+. 2020-07-16 10:51:42.614 Opened main channel
+. 2020-07-16 10:51:42.632 Started a shell/command
+. 2020-07-16 10:51:42.633 --------------------------------------------------------------------------
+. 2020-07-16 10:51:42.633 Using SFTP protocol.
+. 2020-07-16 10:51:42.633 Doing startup conversation with host.
+> 2020-07-16 10:51:42.634 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2020-07-16 10:51:42.795 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2020-07-16 10:51:42.795 SFTP version 3 negotiated.
+. 2020-07-16 10:51:42.795 Unknown server extension posix-rename@openssh.com="1"
+. 2020-07-16 10:51:42.795 Supports statvfs@openssh.com extension version "2"
+. 2020-07-16 10:51:42.795 Unknown server extension fstatvfs@openssh.com="2"
+. 2020-07-16 10:51:42.795 Supports hardlink@openssh.com extension version "1"
+. 2020-07-16 10:51:42.795 Unknown server extension fsync@openssh.com="1"
+. 2020-07-16 10:51:42.795 We believe the server has signed timestamps bug
+. 2020-07-16 10:51:42.795 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2020-07-16 10:51:42.795 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2020-07-16 10:51:42.795 Getting current directory name.
+. 2020-07-16 10:51:42.795 Getting real path for '.'
+> 2020-07-16 10:51:42.795 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2020-07-16 10:51:42.804 Type: SSH_FXP_NAME, Size: 47, Number: 16
+. 2020-07-16 10:51:42.804 Real path is '/home/squash9'
+. 2020-07-16 10:51:42.804 Startup conversation with host finished.
+< 2020-07-16 10:51:42.805 Script: Active session: [1] squash9@squashsource.com
+> 2020-07-16 10:51:42.805 Script: lcd "C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper"
+< 2020-07-16 10:51:42.805 Script: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+> 2020-07-16 10:51:42.806 Script: cd /home/squash9/public_html/wp-content/uploads/wpallimport/files
+. 2020-07-16 10:51:42.806 Changing directory to "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+. 2020-07-16 10:51:42.806 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 10:51:42.806 Type: SSH_FXP_REALPATH, Size: 71, Number: 272
+< 2020-07-16 10:51:42.814 Type: SSH_FXP_NAME, Size: 145, Number: 272
+. 2020-07-16 10:51:42.816 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 10:51:42.816 Trying to open directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+> 2020-07-16 10:51:42.816 Type: SSH_FXP_LSTAT, Size: 71, Number: 519
+< 2020-07-16 10:51:42.825 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2020-07-16 10:51:42.825 Getting current directory name.
+< 2020-07-16 10:51:42.825 Script: /home/squash9/public_html/wp-content/uploads/wpallimport/files
+> 2020-07-16 10:51:42.825 Script: put controlthet.csv
+. 2020-07-16 10:51:42.825 Copying 1 files/directories to remote directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files" - total size: 37,952
+. 2020-07-16 10:51:42.825   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2020-07-16 10:51:42.825   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2020-07-16 10:51:42.825   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2020-07-16 10:51:42.825 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 10:51:42.825 Type: SSH_FXP_REALPATH, Size: 71, Number: 784
+< 2020-07-16 10:51:42.848 Type: SSH_FXP_NAME, Size: 145, Number: 784
+. 2020-07-16 10:51:42.848 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 10:51:42.853 File: 'controlthet.csv' [2020-06-16T23:40:05.866Z] [37952]
+. 2020-07-16 10:51:42.854 Copying "controlthet.csv" to remote directory started.
+. 2020-07-16 10:51:42.854 Binary transfer mode selected.
+. 2020-07-16 10:51:42.854 Opening remote file.
+> 2020-07-16 10:51:42.854 Type: SSH_FXP_OPEN, Size: 103, Number: 1027
+< 2020-07-16 10:51:42.863 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2020-07-16 10:51:42.863 Type: SSH_FXP_WRITE, Size: 32761, Number: 1542
+. 2020-07-16 10:51:42.863 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2020-07-16 10:51:42.863 Type: SSH_FXP_CLOSE, Size: 13, Number: 2052
+> 2020-07-16 10:51:42.863 Type: SSH_FXP_SETSTAT, Size: 99, Number: 1289
+< 2020-07-16 10:51:42.882 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2020-07-16 10:51:42.882 Status code: 0
+< 2020-07-16 10:51:42.883 Type: SSH_FXP_STATUS, Size: 24, Number: 1798
+< 2020-07-16 10:51:42.883 Status code: 0
+< 2020-07-16 10:51:42.883 Type: SSH_FXP_STATUS, Size: 24, Number: 2052
+< 2020-07-16 10:51:42.883 Status code: 0
+. 2020-07-16 10:51:42.883 Preserving timestamp [2020-06-16T23:40:05.000Z]
+< 2020-07-16 10:51:42.883 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2020-07-16 10:51:42.883 Status code: 0
+. 2020-07-16 10:51:42.883 Transfer done: 'controlthet.csv' => '/home/squash9/public_html/wp-content/uploads/wpallimport/files/controlthet.csv' [37952]
+. 2020-07-16 10:51:42.883 Copying finished: Transferred: 37,952, Elapsed: 0:00:00, CPS: 326,000/s
+> 2020-07-16 10:51:42.884 Script: exit
+. 2020-07-16 10:51:42.884 Script: Exit code: 0
+. 2020-07-16 10:51:42.884 Closing connection.
+. 2020-07-16 10:51:42.884 Sending special code: 1
+. 2020-07-16 10:51:42.895 Session sent command exit status 0
+. 2020-07-16 10:51:42.895 Main session channel closed
+. 2020-07-16 10:51:42.896 All channels closed
+. 2020-07-16 10:52:42.902 --------------------------------------------------------------------------
+. 2020-07-16 10:52:42.902 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-16 10:52:42.903 Configuration: nul
+. 2020-07-16 10:52:42.903 Log level: Normal
+. 2020-07-16 10:52:42.903 Local account: CFGLOBAL\pbastien
+. 2020-07-16 10:52:42.903 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-16 10:52:42.903 Process ID: 20320
+. 2020-07-16 10:52:42.903 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_8068_16 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put controlthet.csv" "exit"
+. 2020-07-16 10:52:42.904 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-16 10:52:42.904 Login time: Thursday, July 16, 2020 10:52:42 AM
+. 2020-07-16 10:52:42.904 --------------------------------------------------------------------------
+. 2020-07-16 10:52:42.904 Script: Retrospectively logging previous script records:
+> 2020-07-16 10:52:42.904 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-16 10:52:42.904 --------------------------------------------------------------------------
+. 2020-07-16 10:52:42.904 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-16 10:52:42.904 Host name: squashsource.com (Port: 2222)
+. 2020-07-16 10:52:42.904 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-16 10:52:42.904 Tunnel: No
+. 2020-07-16 10:52:42.904 Transfer Protocol: SFTP
+. 2020-07-16 10:52:42.904 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-16 10:52:42.904 Disable Nagle: No
+. 2020-07-16 10:52:42.904 Proxy: None
+. 2020-07-16 10:52:42.904 Send buffer: 262144
+. 2020-07-16 10:52:42.904 SSH protocol version: 2; Compression: No
+. 2020-07-16 10:52:42.904 Bypass authentication: No
+. 2020-07-16 10:52:42.904 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-16 10:52:42.904 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-16 10:52:42.904 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-16 10:52:42.904 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-16 10:52:42.904 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-16 10:52:42.904 Simple channel: Yes
+. 2020-07-16 10:52:42.904 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-16 10:52:42.904 Shell: default
+. 2020-07-16 10:52:42.904 EOL: LF, UTF: Auto
+. 2020-07-16 10:52:42.904 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-16 10:52:42.904 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-16 10:52:42.904 SFTP Bugs: Auto,Auto
+. 2020-07-16 10:52:42.904 SFTP Server: default
+. 2020-07-16 10:52:42.904 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-16 10:52:42.904 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-16 10:52:42.904 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-16 10:52:42.904 DST mode: Unix
+. 2020-07-16 10:52:42.904 --------------------------------------------------------------------------
+. 2020-07-16 10:52:42.905 Looking up host "squashsource.com" for SSH connection
+. 2020-07-16 10:52:42.967 Connecting to 199.250.194.144 port 2222
+. 2020-07-16 10:52:42.976 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-16 10:52:42.998 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-16 10:52:42.998 Using SSH protocol version 2
+. 2020-07-16 10:52:58.006 No GSSAPI security context available
+. 2020-07-16 10:52:58.006 Have a known host key of type ssh-ed25519
+. 2020-07-16 10:52:58.008 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-16 10:52:58.630 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-16 10:52:58.630 Host key fingerprint is:
+. 2020-07-16 10:52:58.631 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-16 10:52:58.631 Host key matches configured key fingerprint
+. 2020-07-16 10:52:58.631 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-16 10:52:58.632 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-16 10:52:58.632 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-16 10:52:58.632 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-16 10:52:58.641 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+. 2020-07-16 10:52:58.642 Pageant is running. Requesting keys.
+. 2020-07-16 10:52:58.642 Pageant has 1 SSH-2 keys
+. 2020-07-16 10:52:58.643 Pageant key #0 matches configured key file
+! 2020-07-16 10:52:58.643 Using username "squash9".
+. 2020-07-16 10:52:58.658 Server offered these authentication methods: publickey
+. 2020-07-16 10:52:58.658 Trying Pageant key #0
+! 2020-07-16 10:52:58.667 Authenticating with public key "imported-openssh-key" from agent
+. 2020-07-16 10:52:58.699 Sending Pageant's response
+. 2020-07-16 10:52:58.737 Access granted
+. 2020-07-16 10:52:58.738 Opening main session channel
+. 2020-07-16 10:52:58.858 Opened main channel
+. 2020-07-16 10:52:58.879 Started a shell/command
+. 2020-07-16 10:52:58.880 --------------------------------------------------------------------------
+. 2020-07-16 10:52:58.880 Using SFTP protocol.
+. 2020-07-16 10:52:58.880 Doing startup conversation with host.
+> 2020-07-16 10:52:58.880 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2020-07-16 10:52:59.043 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2020-07-16 10:52:59.043 SFTP version 3 negotiated.
+. 2020-07-16 10:52:59.043 Unknown server extension posix-rename@openssh.com="1"
+. 2020-07-16 10:52:59.043 Supports statvfs@openssh.com extension version "2"
+. 2020-07-16 10:52:59.043 Unknown server extension fstatvfs@openssh.com="2"
+. 2020-07-16 10:52:59.043 Supports hardlink@openssh.com extension version "1"
+. 2020-07-16 10:52:59.043 Unknown server extension fsync@openssh.com="1"
+. 2020-07-16 10:52:59.043 We believe the server has signed timestamps bug
+. 2020-07-16 10:52:59.043 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2020-07-16 10:52:59.043 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2020-07-16 10:52:59.043 Getting current directory name.
+. 2020-07-16 10:52:59.043 Getting real path for '.'
+> 2020-07-16 10:52:59.043 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2020-07-16 10:52:59.052 Type: SSH_FXP_NAME, Size: 47, Number: 16
+. 2020-07-16 10:52:59.052 Real path is '/home/squash9'
+. 2020-07-16 10:52:59.052 Startup conversation with host finished.
+< 2020-07-16 10:52:59.053 Script: Active session: [1] squash9@squashsource.com
+> 2020-07-16 10:52:59.053 Script: lcd "C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper"
+< 2020-07-16 10:52:59.053 Script: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+> 2020-07-16 10:52:59.054 Script: cd /home/squash9/public_html/wp-content/uploads/wpallimport/files
+. 2020-07-16 10:52:59.054 Changing directory to "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+. 2020-07-16 10:52:59.054 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 10:52:59.054 Type: SSH_FXP_REALPATH, Size: 71, Number: 272
+< 2020-07-16 10:52:59.063 Type: SSH_FXP_NAME, Size: 145, Number: 272
+. 2020-07-16 10:52:59.064 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 10:52:59.064 Trying to open directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+> 2020-07-16 10:52:59.064 Type: SSH_FXP_LSTAT, Size: 71, Number: 519
+< 2020-07-16 10:52:59.074 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2020-07-16 10:52:59.075 Getting current directory name.
+< 2020-07-16 10:52:59.075 Script: /home/squash9/public_html/wp-content/uploads/wpallimport/files
+> 2020-07-16 10:52:59.076 Script: put controlthet.csv
+. 2020-07-16 10:52:59.077 Copying 1 files/directories to remote directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files" - total size: 39,240
+. 2020-07-16 10:52:59.077   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2020-07-16 10:52:59.077   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2020-07-16 10:52:59.077   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2020-07-16 10:52:59.077 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 10:52:59.077 Type: SSH_FXP_REALPATH, Size: 71, Number: 784
+< 2020-07-16 10:52:59.085 Type: SSH_FXP_NAME, Size: 145, Number: 784
+. 2020-07-16 10:52:59.085 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 10:52:59.085 File: 'controlthet.csv' [2020-07-16T14:29:01.055Z] [39240]
+. 2020-07-16 10:52:59.086 Copying "controlthet.csv" to remote directory started.
+. 2020-07-16 10:52:59.086 Binary transfer mode selected.
+. 2020-07-16 10:52:59.086 Opening remote file.
+> 2020-07-16 10:52:59.086 Type: SSH_FXP_OPEN, Size: 103, Number: 1027
+< 2020-07-16 10:52:59.094 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2020-07-16 10:52:59.094 Type: SSH_FXP_WRITE, Size: 32761, Number: 1542
+. 2020-07-16 10:52:59.094 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2020-07-16 10:52:59.094 Type: SSH_FXP_CLOSE, Size: 13, Number: 2052
+> 2020-07-16 10:52:59.095 Type: SSH_FXP_SETSTAT, Size: 99, Number: 1289
+< 2020-07-16 10:52:59.123 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2020-07-16 10:52:59.123 Status code: 0
+< 2020-07-16 10:52:59.133 Type: SSH_FXP_STATUS, Size: 24, Number: 1798
+< 2020-07-16 10:52:59.133 Status code: 0
+< 2020-07-16 10:52:59.134 Type: SSH_FXP_STATUS, Size: 24, Number: 2052
+< 2020-07-16 10:52:59.134 Status code: 0
+. 2020-07-16 10:52:59.134 Preserving timestamp [2020-07-16T14:29:01.000Z]
+< 2020-07-16 10:52:59.134 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2020-07-16 10:52:59.134 Status code: 0
+. 2020-07-16 10:52:59.134 Transfer done: 'controlthet.csv' => '/home/squash9/public_html/wp-content/uploads/wpallimport/files/controlthet.csv' [39240]
+. 2020-07-16 10:52:59.134 Copying finished: Transferred: 39,240, Elapsed: 0:00:00, CPS: 209,806/s
+> 2020-07-16 10:52:59.134 Script: exit
+. 2020-07-16 10:52:59.135 Script: Exit code: 0
+. 2020-07-16 10:52:59.135 Closing connection.
+. 2020-07-16 10:52:59.135 Sending special code: 1
+. 2020-07-16 10:52:59.144 Session sent command exit status 0
+. 2020-07-16 10:52:59.144 Main session channel closed
+. 2020-07-16 10:52:59.145 All channels closed
+. 2020-07-16 11:54:17.474 --------------------------------------------------------------------------
+. 2020-07-16 11:54:17.474 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-16 11:54:17.474 Configuration: nul
+. 2020-07-16 11:54:17.474 Log level: Normal
+. 2020-07-16 11:54:17.474 Local account: CFGLOBAL\pbastien
+. 2020-07-16 11:54:17.474 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-16 11:54:17.474 Process ID: 27028
+. 2020-07-16 11:54:17.475 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_23156_577 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put squashgalaxy.csv" "exit"
+. 2020-07-16 11:54:17.475 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-16 11:54:17.475 Login time: Thursday, July 16, 2020 11:54:17 AM
+. 2020-07-16 11:54:17.475 --------------------------------------------------------------------------
+. 2020-07-16 11:54:17.475 Script: Retrospectively logging previous script records:
+> 2020-07-16 11:54:17.475 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-16 11:54:17.475 --------------------------------------------------------------------------
+. 2020-07-16 11:54:17.475 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-16 11:54:17.475 Host name: squashsource.com (Port: 2222)
+. 2020-07-16 11:54:17.475 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-16 11:54:17.475 Tunnel: No
+. 2020-07-16 11:54:17.475 Transfer Protocol: SFTP
+. 2020-07-16 11:54:17.475 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-16 11:54:17.475 Disable Nagle: No
+. 2020-07-16 11:54:17.475 Proxy: None
+. 2020-07-16 11:54:17.475 Send buffer: 262144
+. 2020-07-16 11:54:17.475 SSH protocol version: 2; Compression: No
+. 2020-07-16 11:54:17.475 Bypass authentication: No
+. 2020-07-16 11:54:17.475 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-16 11:54:17.475 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-16 11:54:17.475 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-16 11:54:17.475 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-16 11:54:17.475 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-16 11:54:17.476 Simple channel: Yes
+. 2020-07-16 11:54:17.476 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-16 11:54:17.476 Shell: default
+. 2020-07-16 11:54:17.476 EOL: LF, UTF: Auto
+. 2020-07-16 11:54:17.476 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-16 11:54:17.476 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-16 11:54:17.476 SFTP Bugs: Auto,Auto
+. 2020-07-16 11:54:17.476 SFTP Server: default
+. 2020-07-16 11:54:17.476 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-16 11:54:17.476 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-16 11:54:17.476 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-16 11:54:17.476 DST mode: Unix
+. 2020-07-16 11:54:17.476 --------------------------------------------------------------------------
+. 2020-07-16 11:54:17.476 Looking up host "squashsource.com" for SSH connection
+. 2020-07-16 11:54:17.591 Connecting to 199.250.194.144 port 2222
+. 2020-07-16 11:54:17.601 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-16 11:54:17.622 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-16 11:54:17.622 Using SSH protocol version 2
+. 2020-07-16 11:54:32.627 No GSSAPI security context available
+. 2020-07-16 11:54:32.628 Have a known host key of type ssh-ed25519
+. 2020-07-16 11:54:32.631 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-16 11:54:32.745 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-16 11:54:32.746 Host key fingerprint is:
+. 2020-07-16 11:54:32.746 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-16 11:54:32.746 Host key matches configured key fingerprint
+. 2020-07-16 11:54:32.746 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-16 11:54:32.746 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-16 11:54:32.746 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-16 11:54:32.747 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-16 11:54:32.782 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+. 2020-07-16 11:54:32.783 Pageant is running. Requesting keys.
+. 2020-07-16 11:54:32.783 Pageant has 1 SSH-2 keys
+. 2020-07-16 11:54:32.783 Pageant key #0 matches configured key file
+! 2020-07-16 11:54:32.783 Using username "squash9".
+. 2020-07-16 11:54:32.791 Server offered these authentication methods: publickey
+. 2020-07-16 11:54:32.791 Trying Pageant key #0
+! 2020-07-16 11:54:32.802 Authenticating with public key "imported-openssh-key" from agent
+. 2020-07-16 11:54:32.833 Sending Pageant's response
+. 2020-07-16 11:54:32.849 Access granted
+. 2020-07-16 11:54:32.850 Opening main session channel
+. 2020-07-16 11:54:32.971 Opened main channel
+. 2020-07-16 11:54:32.988 Started a shell/command
+. 2020-07-16 11:54:32.989 --------------------------------------------------------------------------
+. 2020-07-16 11:54:32.989 Using SFTP protocol.
+. 2020-07-16 11:54:32.989 Doing startup conversation with host.
+> 2020-07-16 11:54:32.989 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2020-07-16 11:54:33.158 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2020-07-16 11:54:33.158 SFTP version 3 negotiated.
+. 2020-07-16 11:54:33.158 Unknown server extension posix-rename@openssh.com="1"
+. 2020-07-16 11:54:33.158 Supports statvfs@openssh.com extension version "2"
+. 2020-07-16 11:54:33.158 Unknown server extension fstatvfs@openssh.com="2"
+. 2020-07-16 11:54:33.158 Supports hardlink@openssh.com extension version "1"
+. 2020-07-16 11:54:33.158 Unknown server extension fsync@openssh.com="1"
+. 2020-07-16 11:54:33.158 We believe the server has signed timestamps bug
+. 2020-07-16 11:54:33.158 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2020-07-16 11:54:33.158 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2020-07-16 11:54:33.158 Getting current directory name.
+. 2020-07-16 11:54:33.158 Getting real path for '.'
+> 2020-07-16 11:54:33.158 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2020-07-16 11:54:33.169 Type: SSH_FXP_NAME, Size: 47, Number: 16
+. 2020-07-16 11:54:33.169 Real path is '/home/squash9'
+. 2020-07-16 11:54:33.169 Startup conversation with host finished.
+< 2020-07-16 11:54:33.170 Script: Active session: [1] squash9@squashsource.com
+> 2020-07-16 11:54:33.171 Script: lcd "C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper"
+< 2020-07-16 11:54:33.171 Script: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+> 2020-07-16 11:54:33.172 Script: cd /home/squash9/public_html/wp-content/uploads/wpallimport/files
+. 2020-07-16 11:54:33.172 Changing directory to "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+. 2020-07-16 11:54:33.172 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 11:54:33.172 Type: SSH_FXP_REALPATH, Size: 71, Number: 272
+< 2020-07-16 11:54:33.183 Type: SSH_FXP_NAME, Size: 145, Number: 272
+. 2020-07-16 11:54:33.183 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 11:54:33.183 Trying to open directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+> 2020-07-16 11:54:33.183 Type: SSH_FXP_LSTAT, Size: 71, Number: 519
+< 2020-07-16 11:54:33.191 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2020-07-16 11:54:33.192 Getting current directory name.
+< 2020-07-16 11:54:33.192 Script: /home/squash9/public_html/wp-content/uploads/wpallimport/files
+> 2020-07-16 11:54:33.193 Script: put squashgalaxy.csv
+. 2020-07-16 11:54:33.193 Copying 1 files/directories to remote directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files" - total size: 26,204
+. 2020-07-16 11:54:33.193   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2020-07-16 11:54:33.193   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2020-07-16 11:54:33.193   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2020-07-16 11:54:33.193 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 11:54:33.193 Type: SSH_FXP_REALPATH, Size: 71, Number: 784
+< 2020-07-16 11:54:33.201 Type: SSH_FXP_NAME, Size: 145, Number: 784
+. 2020-07-16 11:54:33.201 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 11:54:33.202 File: 'squashgalaxy.csv' [2020-07-16T15:53:47.654Z] [26204]
+. 2020-07-16 11:54:33.203 Copying "squashgalaxy.csv" to remote directory started.
+. 2020-07-16 11:54:33.203 Binary transfer mode selected.
+. 2020-07-16 11:54:33.203 Opening remote file.
+> 2020-07-16 11:54:33.203 Type: SSH_FXP_OPEN, Size: 104, Number: 1027
+< 2020-07-16 11:54:33.211 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2020-07-16 11:54:33.211 Type: SSH_FXP_WRITE, Size: 26229, Number: 1542
+> 2020-07-16 11:54:33.211 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+> 2020-07-16 11:54:33.211 Type: SSH_FXP_SETSTAT, Size: 100, Number: 1289
+< 2020-07-16 11:54:33.230 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2020-07-16 11:54:33.230 Status code: 0
+< 2020-07-16 11:54:33.230 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+< 2020-07-16 11:54:33.230 Status code: 0
+. 2020-07-16 11:54:33.230 Preserving timestamp [2020-07-16T15:53:47.000Z]
+< 2020-07-16 11:54:33.230 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2020-07-16 11:54:33.230 Status code: 0
+. 2020-07-16 11:54:33.230 Transfer done: 'squashgalaxy.csv' => '/home/squash9/public_html/wp-content/uploads/wpallimport/files/squashgalaxy.csv' [26204]
+. 2020-07-16 11:54:33.230 Copying finished: Transferred: 26,204, Elapsed: 0:00:00, CPS: 0/s
+> 2020-07-16 11:54:33.231 Script: exit
+. 2020-07-16 11:54:33.231 Script: Exit code: 0
+. 2020-07-16 11:54:33.231 Closing connection.
+. 2020-07-16 11:54:33.231 Sending special code: 1
+. 2020-07-16 11:54:33.239 Session sent command exit status 0
+. 2020-07-16 11:54:33.239 Main session channel closed
+. 2020-07-16 11:54:33.240 All channels closed
+. 2020-07-16 16:15:52.455 --------------------------------------------------------------------------
+. 2020-07-16 16:15:52.456 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-16 16:15:52.456 Configuration: nul
+. 2020-07-16 16:15:52.456 Log level: Normal
+. 2020-07-16 16:15:52.456 Local account: CFGLOBAL\pbastien
+. 2020-07-16 16:15:52.456 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-16 16:15:52.456 Process ID: 21256
+. 2020-07-16 16:15:52.457 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_15968_46 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put dlsports.csv" "exit"
+. 2020-07-16 16:15:52.457 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-16 16:15:52.458 Login time: Thursday, July 16, 2020 4:15:52 PM
+. 2020-07-16 16:15:52.458 --------------------------------------------------------------------------
+. 2020-07-16 16:15:52.458 Script: Retrospectively logging previous script records:
+> 2020-07-16 16:15:52.458 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-16 16:15:52.458 --------------------------------------------------------------------------
+. 2020-07-16 16:15:52.458 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-16 16:15:52.458 Host name: squashsource.com (Port: 2222)
+. 2020-07-16 16:15:52.458 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-16 16:15:52.458 Tunnel: No
+. 2020-07-16 16:15:52.458 Transfer Protocol: SFTP
+. 2020-07-16 16:15:52.458 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-16 16:15:52.458 Disable Nagle: No
+. 2020-07-16 16:15:52.458 Proxy: None
+. 2020-07-16 16:15:52.458 Send buffer: 262144
+. 2020-07-16 16:15:52.458 SSH protocol version: 2; Compression: No
+. 2020-07-16 16:15:52.458 Bypass authentication: No
+. 2020-07-16 16:15:52.458 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-16 16:15:52.458 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-16 16:15:52.458 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-16 16:15:52.458 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-16 16:15:52.458 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-16 16:15:52.458 Simple channel: Yes
+. 2020-07-16 16:15:52.458 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-16 16:15:52.458 Shell: default
+. 2020-07-16 16:15:52.458 EOL: LF, UTF: Auto
+. 2020-07-16 16:15:52.458 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-16 16:15:52.458 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-16 16:15:52.458 SFTP Bugs: Auto,Auto
+. 2020-07-16 16:15:52.458 SFTP Server: default
+. 2020-07-16 16:15:52.458 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-16 16:15:52.458 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-16 16:15:52.458 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-16 16:15:52.458 DST mode: Unix
+. 2020-07-16 16:15:52.458 --------------------------------------------------------------------------
+. 2020-07-16 16:15:52.459 Looking up host "squashsource.com" for SSH connection
+. 2020-07-16 16:15:52.469 Connecting to 199.250.194.144 port 2222
+. 2020-07-16 16:15:52.479 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-16 16:15:52.502 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-16 16:15:52.502 Using SSH protocol version 2
+. 2020-07-16 16:15:52.540 No GSSAPI security context available
+. 2020-07-16 16:15:52.540 Have a known host key of type ssh-ed25519
+. 2020-07-16 16:15:52.551 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-16 16:15:52.634 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-16 16:15:52.634 Host key fingerprint is:
+. 2020-07-16 16:15:52.634 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-16 16:15:52.635 Host key matches configured key fingerprint
+. 2020-07-16 16:15:52.635 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-16 16:15:52.635 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-16 16:15:52.635 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-16 16:15:52.635 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-16 16:15:52.646 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+! 2020-07-16 16:15:52.651 Using username "squash9".
+. 2020-07-16 16:15:52.661 Server offered these authentication methods: publickey
+. 2020-07-16 16:15:52.661 Offered public key
+. 2020-07-16 16:15:52.671 Offer of public key accepted
+! 2020-07-16 16:15:52.671 Authenticating with public key "imported-openssh-key"
+. 2020-07-16 16:15:52.671 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+! 2020-07-16 16:16:02.690 Wrong passphrase
+. 2020-07-16 16:16:02.691 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+. 2020-07-16 16:16:23.887 User aborted at passphrase prompt
+. 2020-07-16 16:16:23.887 Attempt to close connection due to fatal exception:
+* 2020-07-16 16:16:23.887 **Connection has been unexpectedly closed.** Server sent command exit status 0.
+. 2020-07-16 16:16:23.887 Closing connection.
+. 2020-07-16 16:16:34.983 --------------------------------------------------------------------------
+. 2020-07-16 16:16:34.983 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-16 16:16:34.983 Configuration: nul
+. 2020-07-16 16:16:34.983 Log level: Normal
+. 2020-07-16 16:16:34.983 Local account: CFGLOBAL\pbastien
+. 2020-07-16 16:16:34.983 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-16 16:16:34.983 Process ID: 16904
+. 2020-07-16 16:16:34.983 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_1072_1 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put dlsports.csv" "exit"
+. 2020-07-16 16:16:34.983 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-16 16:16:34.983 Login time: Thursday, July 16, 2020 4:16:34 PM
+. 2020-07-16 16:16:34.983 --------------------------------------------------------------------------
+. 2020-07-16 16:16:34.983 Script: Retrospectively logging previous script records:
+> 2020-07-16 16:16:34.983 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-16 16:16:34.983 --------------------------------------------------------------------------
+. 2020-07-16 16:16:34.983 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-16 16:16:34.983 Host name: squashsource.com (Port: 2222)
+. 2020-07-16 16:16:34.983 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-16 16:16:34.983 Tunnel: No
+. 2020-07-16 16:16:34.983 Transfer Protocol: SFTP
+. 2020-07-16 16:16:34.983 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-16 16:16:34.983 Disable Nagle: No
+. 2020-07-16 16:16:34.983 Proxy: None
+. 2020-07-16 16:16:34.983 Send buffer: 262144
+. 2020-07-16 16:16:34.983 SSH protocol version: 2; Compression: No
+. 2020-07-16 16:16:34.983 Bypass authentication: No
+. 2020-07-16 16:16:34.983 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-16 16:16:34.983 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-16 16:16:34.983 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-16 16:16:34.983 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-16 16:16:34.983 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-16 16:16:34.983 Simple channel: Yes
+. 2020-07-16 16:16:34.984 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-16 16:16:34.984 Shell: default
+. 2020-07-16 16:16:34.984 EOL: LF, UTF: Auto
+. 2020-07-16 16:16:34.984 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-16 16:16:34.984 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-16 16:16:34.984 SFTP Bugs: Auto,Auto
+. 2020-07-16 16:16:34.984 SFTP Server: default
+. 2020-07-16 16:16:34.984 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-16 16:16:34.984 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-16 16:16:34.984 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-16 16:16:34.984 DST mode: Unix
+. 2020-07-16 16:16:34.984 --------------------------------------------------------------------------
+. 2020-07-16 16:16:34.985 Looking up host "squashsource.com" for SSH connection
+. 2020-07-16 16:16:34.992 Connecting to 199.250.194.144 port 2222
+. 2020-07-16 16:16:35.002 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-16 16:16:35.027 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-16 16:16:35.027 Using SSH protocol version 2
+. 2020-07-16 16:16:35.029 No GSSAPI security context available
+. 2020-07-16 16:16:35.029 Have a known host key of type ssh-ed25519
+. 2020-07-16 16:16:35.041 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-16 16:16:35.120 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-16 16:16:35.120 Host key fingerprint is:
+. 2020-07-16 16:16:35.120 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-16 16:16:35.121 Host key matches configured key fingerprint
+. 2020-07-16 16:16:35.122 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-16 16:16:35.122 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-16 16:16:35.122 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-16 16:16:35.122 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-16 16:16:35.135 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+. 2020-07-16 16:16:35.136 Pageant is running. Requesting keys.
+. 2020-07-16 16:16:35.137 Pageant has 0 SSH-2 keys
+. 2020-07-16 16:16:35.137 Configured key file not in Pageant
+! 2020-07-16 16:16:35.137 Using username "squash9".
+. 2020-07-16 16:16:35.147 Server offered these authentication methods: publickey
+. 2020-07-16 16:16:35.147 Offered public key
+. 2020-07-16 16:16:35.156 Offer of public key accepted
+! 2020-07-16 16:16:35.156 Authenticating with public key "imported-openssh-key"
+. 2020-07-16 16:16:35.156 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+! 2020-07-16 16:16:57.469 Wrong passphrase
+. 2020-07-16 16:16:57.469 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+. 2020-07-16 16:17:01.280 Sent public key signature
+. 2020-07-16 16:17:01.352 Access granted
+. 2020-07-16 16:17:01.352 Opening main session channel
+. 2020-07-16 16:17:01.453 Opened main channel
+. 2020-07-16 16:17:01.470 Started a shell/command
+. 2020-07-16 16:17:01.471 --------------------------------------------------------------------------
+. 2020-07-16 16:17:01.471 Using SFTP protocol.
+. 2020-07-16 16:17:01.471 Doing startup conversation with host.
+> 2020-07-16 16:17:01.473 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2020-07-16 16:17:01.586 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2020-07-16 16:17:01.586 SFTP version 3 negotiated.
+. 2020-07-16 16:17:01.586 Unknown server extension posix-rename@openssh.com="1"
+. 2020-07-16 16:17:01.586 Supports statvfs@openssh.com extension version "2"
+. 2020-07-16 16:17:01.586 Unknown server extension fstatvfs@openssh.com="2"
+. 2020-07-16 16:17:01.586 Supports hardlink@openssh.com extension version "1"
+. 2020-07-16 16:17:01.586 Unknown server extension fsync@openssh.com="1"
+. 2020-07-16 16:17:01.586 We believe the server has signed timestamps bug
+. 2020-07-16 16:17:01.586 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2020-07-16 16:17:01.587 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2020-07-16 16:17:01.587 Getting current directory name.
+. 2020-07-16 16:17:01.587 Getting real path for '.'
+> 2020-07-16 16:17:01.587 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2020-07-16 16:17:01.596 Type: SSH_FXP_NAME, Size: 47, Number: 16
+. 2020-07-16 16:17:01.596 Real path is '/home/squash9'
+. 2020-07-16 16:17:01.596 Startup conversation with host finished.
+< 2020-07-16 16:17:01.596 Script: Active session: [1] squash9@squashsource.com
+> 2020-07-16 16:17:01.600 Script: lcd "C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper"
+< 2020-07-16 16:17:01.600 Script: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+> 2020-07-16 16:17:01.601 Script: cd /home/squash9/public_html/wp-content/uploads/wpallimport/files
+. 2020-07-16 16:17:01.601 Changing directory to "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+. 2020-07-16 16:17:01.601 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 16:17:01.601 Type: SSH_FXP_REALPATH, Size: 71, Number: 272
+< 2020-07-16 16:17:01.609 Type: SSH_FXP_NAME, Size: 145, Number: 272
+. 2020-07-16 16:17:01.609 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 16:17:01.609 Trying to open directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+> 2020-07-16 16:17:01.609 Type: SSH_FXP_LSTAT, Size: 71, Number: 519
+< 2020-07-16 16:17:01.617 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2020-07-16 16:17:01.617 Getting current directory name.
+< 2020-07-16 16:17:01.617 Script: /home/squash9/public_html/wp-content/uploads/wpallimport/files
+> 2020-07-16 16:17:01.619 Script: put dlsports.csv
+. 2020-07-16 16:17:01.619 Copying 1 files/directories to remote directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files" - total size: 19,728
+. 2020-07-16 16:17:01.620   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2020-07-16 16:17:01.620   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2020-07-16 16:17:01.620   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2020-07-16 16:17:01.620 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-16 16:17:01.620 Type: SSH_FXP_REALPATH, Size: 71, Number: 784
+< 2020-07-16 16:17:01.631 Type: SSH_FXP_NAME, Size: 145, Number: 784
+. 2020-07-16 16:17:01.632 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-16 16:17:01.635 File: 'dlsports.csv' [2020-07-16T20:15:38.330Z] [19728]
+. 2020-07-16 16:17:01.636 Copying "dlsports.csv" to remote directory started.
+. 2020-07-16 16:17:01.636 Binary transfer mode selected.
+. 2020-07-16 16:17:01.636 Opening remote file.
+> 2020-07-16 16:17:01.636 Type: SSH_FXP_OPEN, Size: 100, Number: 1027
+< 2020-07-16 16:17:01.645 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2020-07-16 16:17:01.645 Type: SSH_FXP_WRITE, Size: 19753, Number: 1542
+> 2020-07-16 16:17:01.647 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+> 2020-07-16 16:17:01.647 Type: SSH_FXP_SETSTAT, Size: 96, Number: 1289
+< 2020-07-16 16:17:01.664 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2020-07-16 16:17:01.664 Status code: 0
+< 2020-07-16 16:17:01.664 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+< 2020-07-16 16:17:01.664 Status code: 0
+. 2020-07-16 16:17:01.664 Preserving timestamp [2020-07-16T20:15:38.000Z]
+< 2020-07-16 16:17:01.664 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2020-07-16 16:17:01.664 Status code: 0
+. 2020-07-16 16:17:01.664 Transfer done: 'dlsports.csv' => '/home/squash9/public_html/wp-content/uploads/wpallimport/files/dlsports.csv' [19728]
+. 2020-07-16 16:17:01.664 Copying finished: Transferred: 19,728, Elapsed: 0:00:00, CPS: 0/s
+> 2020-07-16 16:17:01.665 Script: exit
+. 2020-07-16 16:17:01.666 Script: Exit code: 0
+. 2020-07-16 16:17:01.666 Closing connection.
+. 2020-07-16 16:17:01.666 Sending special code: 1
+. 2020-07-16 16:17:01.675 Session sent command exit status 0
+. 2020-07-16 16:17:01.675 Main session channel closed
+. 2020-07-16 16:17:01.675 All channels closed
+. 2020-07-20 18:17:56.454 --------------------------------------------------------------------------
+. 2020-07-20 18:17:56.454 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-20 18:17:56.454 Configuration: nul
+. 2020-07-20 18:17:56.454 Log level: Normal
+. 2020-07-20 18:17:56.454 Local account: CFGLOBAL\pbastien
+. 2020-07-20 18:17:56.454 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-20 18:17:56.454 Process ID: 8044
+. 2020-07-20 18:17:56.455 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_29500_767 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put handballshop.csv" "exit"
+. 2020-07-20 18:17:56.455 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-20 18:17:56.455 Login time: Monday, July 20, 2020 6:17:56 PM
+. 2020-07-20 18:17:56.455 --------------------------------------------------------------------------
+. 2020-07-20 18:17:56.455 Script: Retrospectively logging previous script records:
+> 2020-07-20 18:17:56.455 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-20 18:17:56.455 --------------------------------------------------------------------------
+. 2020-07-20 18:17:56.455 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-20 18:17:56.455 Host name: squashsource.com (Port: 2222)
+. 2020-07-20 18:17:56.455 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-20 18:17:56.455 Tunnel: No
+. 2020-07-20 18:17:56.455 Transfer Protocol: SFTP
+. 2020-07-20 18:17:56.455 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-20 18:17:56.455 Disable Nagle: No
+. 2020-07-20 18:17:56.455 Proxy: None
+. 2020-07-20 18:17:56.455 Send buffer: 262144
+. 2020-07-20 18:17:56.455 SSH protocol version: 2; Compression: No
+. 2020-07-20 18:17:56.455 Bypass authentication: No
+. 2020-07-20 18:17:56.455 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-20 18:17:56.455 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-20 18:17:56.455 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-20 18:17:56.455 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-20 18:17:56.455 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-20 18:17:56.455 Simple channel: Yes
+. 2020-07-20 18:17:56.455 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-20 18:17:56.455 Shell: default
+. 2020-07-20 18:17:56.455 EOL: LF, UTF: Auto
+. 2020-07-20 18:17:56.455 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-20 18:17:56.455 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-20 18:17:56.456 SFTP Bugs: Auto,Auto
+. 2020-07-20 18:17:56.456 SFTP Server: default
+. 2020-07-20 18:17:56.456 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-20 18:17:56.456 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-20 18:17:56.456 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-20 18:17:56.456 DST mode: Unix
+. 2020-07-20 18:17:56.456 --------------------------------------------------------------------------
+. 2020-07-20 18:17:56.456 Looking up host "squashsource.com" for SSH connection
+. 2020-07-20 18:17:56.477 Connecting to 199.250.194.144 port 2222
+. 2020-07-20 18:17:56.496 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-20 18:17:56.526 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-20 18:17:56.526 Using SSH protocol version 2
+. 2020-07-20 18:17:56.714 No GSSAPI security context available
+. 2020-07-20 18:17:56.715 Have a known host key of type ssh-ed25519
+. 2020-07-20 18:17:56.718 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-20 18:17:56.852 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-20 18:17:56.852 Host key fingerprint is:
+. 2020-07-20 18:17:56.852 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-20 18:17:56.853 Host key matches configured key fingerprint
+. 2020-07-20 18:17:56.853 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-20 18:17:56.853 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-20 18:17:56.853 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-20 18:17:56.853 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-20 18:17:56.869 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+! 2020-07-20 18:17:56.875 Using username "squash9".
+. 2020-07-20 18:17:56.892 Server offered these authentication methods: publickey
+. 2020-07-20 18:17:56.892 Offered public key
+. 2020-07-20 18:17:56.911 Offer of public key accepted
+! 2020-07-20 18:17:56.911 Authenticating with public key "imported-openssh-key"
+. 2020-07-20 18:17:56.912 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+! 2020-07-20 18:18:18.934 Wrong passphrase
+. 2020-07-20 18:18:18.934 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+. 2020-07-20 18:18:28.944 User aborted at passphrase prompt
+. 2020-07-20 18:18:28.944 Attempt to close connection due to fatal exception:
+* 2020-07-20 18:18:28.944 **Connection has been unexpectedly closed.** Server sent command exit status 0.
+. 2020-07-20 18:18:28.944 Closing connection.
+. 2020-07-20 18:18:46.418 --------------------------------------------------------------------------
+. 2020-07-20 18:18:46.418 WinSCP Version 5.17.5 (Build 10414) (OS 10.0.18362 - Windows 10 Enterprise)
+. 2020-07-20 18:18:46.418 Configuration: nul
+. 2020-07-20 18:18:46.418 Log level: Normal
+. 2020-07-20 18:18:46.418 Local account: CFGLOBAL\pbastien
+. 2020-07-20 18:18:46.418 Working directory: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+. 2020-07-20 18:18:46.418 Process ID: 14500
+. 2020-07-20 18:18:46.419 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.5 /consoleinstance=_24892_665 "/log=C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper\upload.log" "/ini=nul" "/command" "open sftp://squash9:***@squashsource.com:2222/ -hostkey=""ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk="" -privatekey=""C:\Program Files\PuTTY\keys\inmotion.ppk"" -rawsettings Cipher=""aes,chacha20,3des,WARN,des,blowfish,arcfour""" "lcd ""C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper""" "cd /home/squash9/public_html/wp-content/uploads/wpallimport/files" "put handballshop.csv" "exit"
+. 2020-07-20 18:18:46.419 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 3/8/2020, DST End: 11/1/2020
+. 2020-07-20 18:18:46.419 Login time: Monday, July 20, 2020 6:18:46 PM
+. 2020-07-20 18:18:46.419 --------------------------------------------------------------------------
+. 2020-07-20 18:18:46.419 Script: Retrospectively logging previous script records:
+> 2020-07-20 18:18:46.419 Script: open sftp://squash9:***@squashsource.com:2222/ -hostkey="ssh-ed25519 255 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=" -privatekey="C:\Program Files\PuTTY\keys\inmotion.ppk" -rawsettings Cipher="aes,chacha20,3des,WARN,des,blowfish,arcfour"
+. 2020-07-20 18:18:46.419 --------------------------------------------------------------------------
+. 2020-07-20 18:18:46.419 Session name: squash9@squashsource.com (Ad-Hoc site)
+. 2020-07-20 18:18:46.419 Host name: squashsource.com (Port: 2222)
+. 2020-07-20 18:18:46.419 User name: squash9 (Password: Yes, Key file: Yes, Passphrase: No)
+. 2020-07-20 18:18:46.419 Tunnel: No
+. 2020-07-20 18:18:46.419 Transfer Protocol: SFTP
+. 2020-07-20 18:18:46.419 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2020-07-20 18:18:46.419 Disable Nagle: No
+. 2020-07-20 18:18:46.419 Proxy: None
+. 2020-07-20 18:18:46.419 Send buffer: 262144
+. 2020-07-20 18:18:46.419 SSH protocol version: 2; Compression: No
+. 2020-07-20 18:18:46.419 Bypass authentication: No
+. 2020-07-20 18:18:46.419 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2020-07-20 18:18:46.419 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2020-07-20 18:18:46.419 Ciphers: aes,chacha20,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2020-07-20 18:18:46.420 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2020-07-20 18:18:46.420 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2020-07-20 18:18:46.420 Simple channel: Yes
+. 2020-07-20 18:18:46.420 Return code variable: Autodetect; Lookup user groups: Auto
+. 2020-07-20 18:18:46.420 Shell: default
+. 2020-07-20 18:18:46.420 EOL: LF, UTF: Auto
+. 2020-07-20 18:18:46.420 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2020-07-20 18:18:46.420 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2020-07-20 18:18:46.420 SFTP Bugs: Auto,Auto
+. 2020-07-20 18:18:46.420 SFTP Server: default
+. 2020-07-20 18:18:46.420 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2020-07-20 18:18:46.420 Cache directory changes: Yes, Permanent: Yes
+. 2020-07-20 18:18:46.420 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2020-07-20 18:18:46.420 DST mode: Unix
+. 2020-07-20 18:18:46.420 --------------------------------------------------------------------------
+. 2020-07-20 18:18:46.420 Looking up host "squashsource.com" for SSH connection
+. 2020-07-20 18:18:46.425 Connecting to 199.250.194.144 port 2222
+. 2020-07-20 18:18:46.444 We claim version: SSH-2.0-WinSCP_release_5.17.5
+. 2020-07-20 18:18:46.482 Remote version: SSH-2.0-OpenSSH_7.4
+. 2020-07-20 18:18:46.482 Using SSH protocol version 2
+. 2020-07-20 18:18:46.483 No GSSAPI security context available
+. 2020-07-20 18:18:46.483 Have a known host key of type ssh-ed25519
+. 2020-07-20 18:18:46.503 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2020-07-20 18:18:46.589 Server also has ecdsa-sha2-nistp256/ssh-rsa/ssh-dss host keys, but we don't know any of them
+. 2020-07-20 18:18:46.589 Host key fingerprint is:
+. 2020-07-20 18:18:46.589 ssh-ed25519 255 a5:97:5c:fa:1e:4f:1d:e8:94:14:77:2e:ec:97:20:d9 /4ojnKIwhuAyvONfPWcK9mi8NOoydNFZcWIOl4uBcqk=
+. 2020-07-20 18:18:46.590 Host key matches configured key fingerprint
+. 2020-07-20 18:18:46.590 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2020-07-20 18:18:46.590 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2020-07-20 18:18:46.590 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2020-07-20 18:18:46.590 Initialised HMAC-SHA-256 inbound MAC algorithm
+. 2020-07-20 18:18:46.607 Reading key file "C:\Program Files\PuTTY\keys\inmotion.ppk"
+. 2020-07-20 18:18:46.607 Pageant is running. Requesting keys.
+. 2020-07-20 18:18:46.608 Pageant has 0 SSH-2 keys
+. 2020-07-20 18:18:46.608 Configured key file not in Pageant
+! 2020-07-20 18:18:46.608 Using username "squash9".
+. 2020-07-20 18:18:46.626 Server offered these authentication methods: publickey
+. 2020-07-20 18:18:46.626 Offered public key
+. 2020-07-20 18:18:46.643 Offer of public key accepted
+! 2020-07-20 18:18:46.643 Authenticating with public key "imported-openssh-key"
+. 2020-07-20 18:18:46.644 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+! 2020-07-20 18:18:54.847 Wrong passphrase
+. 2020-07-20 18:18:54.848 Prompt (passphrase, "SSH key passphrase", <no instructions>, "Passphrase for key "imported-openssh-key": ")
+. 2020-07-20 18:18:57.354 Sent public key signature
+. 2020-07-20 18:18:57.377 Access granted
+. 2020-07-20 18:18:57.377 Opening main session channel
+. 2020-07-20 18:18:57.544 Opened main channel
+. 2020-07-20 18:18:57.565 Started a shell/command
+. 2020-07-20 18:18:57.566 --------------------------------------------------------------------------
+. 2020-07-20 18:18:57.566 Using SFTP protocol.
+. 2020-07-20 18:18:57.566 Doing startup conversation with host.
+> 2020-07-20 18:18:57.567 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2020-07-20 18:18:58.002 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2020-07-20 18:18:58.002 SFTP version 3 negotiated.
+. 2020-07-20 18:18:58.002 Unknown server extension posix-rename@openssh.com="1"
+. 2020-07-20 18:18:58.002 Supports statvfs@openssh.com extension version "2"
+. 2020-07-20 18:18:58.002 Unknown server extension fstatvfs@openssh.com="2"
+. 2020-07-20 18:18:58.002 Supports hardlink@openssh.com extension version "1"
+. 2020-07-20 18:18:58.002 Unknown server extension fsync@openssh.com="1"
+. 2020-07-20 18:18:58.002 We believe the server has signed timestamps bug
+. 2020-07-20 18:18:58.002 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2020-07-20 18:18:58.002 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2020-07-20 18:18:58.002 Getting current directory name.
+. 2020-07-20 18:18:58.002 Getting real path for '.'
+> 2020-07-20 18:18:58.002 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2020-07-20 18:18:58.017 Type: SSH_FXP_NAME, Size: 47, Number: 16
+. 2020-07-20 18:18:58.017 Real path is '/home/squash9'
+. 2020-07-20 18:18:58.017 Startup conversation with host finished.
+< 2020-07-20 18:18:58.018 Script: Active session: [1] squash9@squashsource.com
+> 2020-07-20 18:18:58.019 Script: lcd "C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper"
+< 2020-07-20 18:18:58.019 Script: C:\Users\pbastien.CFGLOBAL\Dropbox\Squash Source\Docs\Programming\webscraper
+> 2020-07-20 18:18:58.020 Script: cd /home/squash9/public_html/wp-content/uploads/wpallimport/files
+. 2020-07-20 18:18:58.020 Changing directory to "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+. 2020-07-20 18:18:58.020 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-20 18:18:58.020 Type: SSH_FXP_REALPATH, Size: 71, Number: 272
+< 2020-07-20 18:18:58.035 Type: SSH_FXP_NAME, Size: 145, Number: 272
+. 2020-07-20 18:18:58.035 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-20 18:18:58.035 Trying to open directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files".
+> 2020-07-20 18:18:58.035 Type: SSH_FXP_LSTAT, Size: 71, Number: 519
+< 2020-07-20 18:18:58.050 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2020-07-20 18:18:58.050 Getting current directory name.
+< 2020-07-20 18:18:58.051 Script: /home/squash9/public_html/wp-content/uploads/wpallimport/files
+> 2020-07-20 18:18:58.052 Script: put handballshop.csv
+. 2020-07-20 18:18:58.052 Copying 1 files/directories to remote directory "/home/squash9/public_html/wp-content/uploads/wpallimport/files" - total size: 20,054
+. 2020-07-20 18:18:58.053   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2020-07-20 18:18:58.053   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2020-07-20 18:18:58.053   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2020-07-20 18:18:58.053 Getting real path for '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+> 2020-07-20 18:18:58.053 Type: SSH_FXP_REALPATH, Size: 71, Number: 784
+< 2020-07-20 18:18:58.069 Type: SSH_FXP_NAME, Size: 145, Number: 784
+. 2020-07-20 18:18:58.069 Real path is '/home/squash9/public_html/wp-content/uploads/wpallimport/files'
+. 2020-07-20 18:18:58.070 File: 'handballshop.csv' [2020-07-20T22:17:39.883Z] [20054]
+. 2020-07-20 18:18:58.071 Copying "handballshop.csv" to remote directory started.
+. 2020-07-20 18:18:58.071 Binary transfer mode selected.
+. 2020-07-20 18:18:58.071 Opening remote file.
+> 2020-07-20 18:18:58.071 Type: SSH_FXP_OPEN, Size: 104, Number: 1027
+< 2020-07-20 18:18:58.086 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2020-07-20 18:18:58.086 Type: SSH_FXP_WRITE, Size: 20079, Number: 1542
+> 2020-07-20 18:18:58.087 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+> 2020-07-20 18:18:58.087 Type: SSH_FXP_SETSTAT, Size: 100, Number: 1289
+< 2020-07-20 18:18:58.125 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2020-07-20 18:18:58.125 Status code: 0
+< 2020-07-20 18:18:58.126 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+< 2020-07-20 18:18:58.126 Status code: 0
+. 2020-07-20 18:18:58.126 Preserving timestamp [2020-07-20T22:17:39.000Z]
+< 2020-07-20 18:18:58.126 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2020-07-20 18:18:58.126 Status code: 0
+. 2020-07-20 18:18:58.126 Transfer done: 'handballshop.csv' => '/home/squash9/public_html/wp-content/uploads/wpallimport/files/handballshop.csv' [20054]
+. 2020-07-20 18:18:58.126 Copying finished: Transferred: 20,054, Elapsed: 0:00:00, CPS: 0/s
+> 2020-07-20 18:18:58.127 Script: exit
+. 2020-07-20 18:18:58.128 Script: Exit code: 0
+. 2020-07-20 18:18:58.128 Closing connection.
+. 2020-07-20 18:18:58.128 Sending special code: 1
+. 2020-07-20 18:18:58.145 Session sent command exit status 0
+. 2020-07-20 18:18:58.145 Main session channel closed
+. 2020-07-20 18:18:58.146 All channels closed

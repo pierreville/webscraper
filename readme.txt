@@ -1,0 +1,3 @@
+-open Anaconda Powershell prompt
+-cd to this webscraper directory
+-scrapy crawl squashgear -o squashgear2.csv
