@@ -23,7 +23,8 @@ class HolabirdSpider(scrapy.Spider):
                 'aff_title': item.css('a::text').extract_first(),
             }
 
-        next_page = response.css('ul.pagination li a[title*="layout.pagination.next_html"]::attr(href)').extract_first()
+        #next_page = response.css('ul.pagination li a[title*="layout.pagination.next_html"]::attr(href)').extract_first()
+        next_page = response.urljoin(response.xpath('//footer/ul/li/a[contains(@title,"next")]/@href').extract_first())
         
         if next_page is not None:
             next_page = response.urljoin(next_page)
