@@ -14,7 +14,7 @@ class RacquetGuys(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for item in response.css('div.product-item div.product-bottom'):
+        for item in response.css('a.boost-pfs-filter-product-item-title'):
             yield {
                 'aff_url': response.urljoin(item.css('a::attr(href)').extract_first()),
                 'aff_title': item.css('a::text').extract_first().strip(),
