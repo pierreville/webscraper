@@ -2,7 +2,7 @@ import scrapy
 import re
 
 class RacquetScienceSpider(scrapy.Spider):
-    name = "racquetsci"
+    name = "racquetscience"
     start_urls = [
         'https://racquet-science.com/collections/squash-racquets',
         'https://racquet-science.com/collections/squash-shoes',
