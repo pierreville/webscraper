@@ -9,8 +9,8 @@ class ZapposSpider(scrapy.Spider):
 
     def parse(self, response):
         for item in response.css('div#searchPage article'):
-            product_name = item.css('dd[itemprop="brand"] span::text').extract_first(),
-            brand_name = item.css('dd[itemprop="name"]::text').extract_first(),
+            brand_name = item.css('dd[itemprop="brand"] span::text').extract_first(),
+            product_name = item.css('dd[itemprop="name"]::text').extract_first(),
             url = response.urljoin(item.css('a::attr(href)').extract_first()),
 
             whole_name = brand_name[0] + ' ' + product_name[0]
