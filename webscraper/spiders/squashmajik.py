@@ -1,7 +1,7 @@
 import scrapy
 
-class squashmajick(scrapy.Spider):
-    name = "squashmajick"
+class squashmajik(scrapy.Spider):
+    name = "squashmajik"
     start_urls = [
         'https://www.ebay.com.au/sch/i.html?_nkw=&_armrs=1&_ipg=&_from=&_ssn=squashmajik&_sop=10',
     ]
@@ -11,7 +11,7 @@ class squashmajick(scrapy.Spider):
 
             yield {
                 'aff_url': item.css('div.s-item__info a::attr(href)').get(),
-                'aff_title': item.css('div.s-item__info div.s-item__title span::text').get()
+                'aff_title': item.css('div.s-item__info div.s-item__title span::text').get(),
                 'aff_id': item.css('div.s-item__image-section a::attr(data-id)').get()
             }
 
