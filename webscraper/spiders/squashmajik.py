@@ -12,7 +12,7 @@ class squashmajik(scrapy.Spider):
             yield {
                 'aff_url': item.css('div.s-item__info a::attr(href)').get(),
                 'aff_title': item.css('div.s-item__info div.s-item__title span::text').get(),
-                'aff_id': item.css('div.s-item__image-section a::attr(data-id)').get()
+                'aff_id': item.css('div.s-item__image-section button::attr(data-id)').get()
             }
 
         #next_page = response.css('div.pagination span.next a::attr(href)').get()
