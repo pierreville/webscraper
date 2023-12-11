@@ -3,7 +3,8 @@ import scrapy
 class ControltheTSpider(scrapy.Spider):
     name = "controlthet"
     start_urls = [
-        'https://controlthet.com/collections/squash',
+        'https://controlthet.com/collections/latest-arrivals-squash',
+        'https://controlthet.com/collections/latest-arrivals-indoor-court-shoes',
     ]
 
     def parse(self, response):

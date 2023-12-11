@@ -17,10 +17,10 @@ class HolabirdSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for item in response.css('div.product-title a.title'):
+        for item in response.css('div.product-item__info'):
             yield {
-                'aff_url': response.urljoin(item.css('a::attr(href)').extract_first()),
-                'aff_title': item.css('a::text').extract_first(),
+                'aff_url': response.urljoin(item.css('a.product-item__title::attr(href)').extract_first()),
+                'aff_title': item.css('a.link::text').extract_first(),
             }
 
         #next_page = response.css('ul.pagination li a[title*="layout.pagination.next_html"]::attr(href)').extract_first()
